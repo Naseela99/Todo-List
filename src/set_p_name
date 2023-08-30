@@ -1,0 +1,16 @@
+
+export default function setProject(e){
+
+    const x = document.querySelector('.clicked')
+
+    if(x!=null){
+        x.classList.remove('clicked')
+    }
+
+    e.srcElement.classList.add('clicked')
+
+
+    
+
+
+}
